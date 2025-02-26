@@ -1,0 +1,75 @@
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15em;
+    background-color: rgba(233, 233, 210, 0.444);
+}
+
+ h1{
+    background-color: rgba(255, 166, 0, 0.249);
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+input{
+    width:57% ;
+    height: 50px;
+    font-size: 20px;
+    /* margin: 0 auto; */
+    margin-left: 5em;
+    margin-bottom: 2em;
+}
+.container div button{
+    width:70px ;
+    height: 45px;
+    margin-left: 30px;
+    border-radius: 15%;
+    border: none;
+    font-size: 25px;
+    background-color: rgb(255, 0, 0,0.5);
+}
+
+button:hover{
+    background-color: rgb(255, 0, 0,1);
+    cursor: pointer;
+    
+}
+
+li{
+    background-color: rgba(255, 166, 0, 0.367);
+    margin: 10px;
+    padding: 5px;
+    font-size: 25px;
+    width: 70%;
+    height: 60px;
+    margin-left: 4em;
+    display: flex;
+    justify-content: space-between;
+}
+.new{
+    background-color: rgb(255, 0, 0);
+    /* margin-left: 10em; */
+    width: 15%;
+    height: 2em;
+}
+.new:hover{
+    background-color: rgb(255, 0, 0,0.4);
+} 
+
+.done{
+    text-decoration: line-through;
+}
+
+.display{
+    display: block;
+}
